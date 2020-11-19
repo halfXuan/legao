@@ -1,0 +1,284 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/first",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+
+		},
+		{
+			"path": "pages/basics/layout",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/background",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/text",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/icon",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/button",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/design",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/tag",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/avatar",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/progress",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/shadow",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/loading",
+			"style": {}
+		},
+		{
+			"path": "pages/component/bar",
+			"style": {}
+		},
+		{
+			"path": "pages/component/nav",
+			"style": {}
+		},
+		{
+			"path": "pages/component/list",
+			"style": {}
+		},
+		{
+			"path": "pages/component/card",
+			"style": {}
+		},
+		{
+			"path": "pages/component/form",
+			"style": {}
+		},
+		{
+			"path": "pages/component/timeline",
+			"style": {}
+		},
+		{
+			"path": "pages/component/chat",
+			"style": {}
+		},
+		{
+			"path": "pages/component/swiper",
+			"style": {}
+		},
+		{
+			"path": "pages/component/modal",
+			"style": {}
+		},
+		{
+			"path": "pages/component/steps",
+			"style": {}
+		}, {
+			"path": "pages/plugin/indexes",
+			"style": {}
+		}, {
+			"path": "pages/plugin/animation",
+			"style": {}
+		}, {
+			"path": "pages/plugin/drawer",
+			"style": {}
+		}, {
+			"path": "pages/plugin/verticalnav",
+			"style": {}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#f2f2f2",
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+		}, {
+			"path": "pages/home/detail",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		}, {
+			"path": "pages/couse/couse",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/couse/courseType",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体 
+			}
+
+		}, {
+			"path": "pages/mine/studyRecord",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/mine/orderList",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+		}
+		, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/login/findPwd",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/login/begin",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/login/age",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/login/cates",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/login/total",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/login/last",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/couse/booked",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/mine/linjian",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/mine/linjianDetail",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/mine/teacherWord",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}, {
+			"path": "pages/home/production",
+			"style": {
+				"navigationBarTextStyle": "black" //状态栏字体
+			}
+
+		}
+	    ,{
+            "path" : "pages/mine/orderDetail",
+            "style" :                                                                                    
+            {}
+            
+        }
+        ,{
+            "path" : "pages/mine/linjianPre",
+            "style" :                                                                                    
+            {}
+            
+        }
+        ,{
+            "path" : "pages/mine/studyList",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/wait",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#F0F0F0",
+		"navigationBarTitleText": "乐高",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black"
+	},
+	"usingComponts": true,
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "表单", //模式名称
+			"path": "pages/component/form", //启动页面
+			"query": "" //启动参数
+		}]
+	}
+
+}

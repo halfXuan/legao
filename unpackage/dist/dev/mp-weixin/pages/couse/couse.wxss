@@ -1,0 +1,123 @@
+.page {
+  height: 100vh;
+  background-color: #fff;
+}
+.page .tips {
+  color: #f9af1f;
+  background-color: #fffac7;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  text-align: center;
+}
+.page .content {
+  padding: 0 15px;
+}
+.page .times {
+  padding: 18px 15px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+.page .times .list {
+  height: 42px;
+  text-align: center;
+}
+.page .times .list .week {
+  line-height: 18px;
+  color: #ccc;
+}
+.page .times .list .day {
+  margin-top: 4px;
+  line-height: 20px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+.page .times .list .actived {
+  background-color: #fce700;
+  border-radius: 50%;
+}
+.page .course .list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 76px;
+  padding: 0 15px;
+}
+.page .course .list .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  height: 76px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.page .course .list .left .begin {
+  height: 20px;
+  line-height: 20px;
+  color: #333;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.page .course .list .left .end {
+  height: 20px;
+  line-height: 20px;
+  color: #ccc;
+  font-size: 14px;
+}
+.page .course .list .status1 {
+  width: 52px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+}
+.page .course .list .status2 {
+  width: 52px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  background-color: #f5f5f5;
+  color: #ccc;
+}
+.page .course .list .status3 {
+  width: 52px;
+  height: 26px;
+  border-radius: 14px;
+  text-align: center;
+}
+.page .course .list .status3 image {
+  width: 52px;
+  height: 26px;
+}
+.page .btn {
+  width: 86%;
+  height: 38px;
+  line-height: 38px;
+  margin: 100px auto 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+  color: #999;
+}
+
